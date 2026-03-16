@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+}
+
+/* container */
+
+.container{
+width:90%;
+text-align:center;
+}
+
+h1{
+margin-bottom:40px;
+letter-spacing:3px;
+}
+
+/* cards layout */
+
+.cards{
+display:flex;
+gap:40px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+/* card */
+
+.card{
+width:330px;
+padding:30px;
+border-radius:20px;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,0.3);
+box-shadow:0 8px 25px rgba(0,0,0,0.3);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.05);
+box-shadow:0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* profile image */
+
+.profile{
+width:100px;
+height:100px;
+border-radius:50%;
+border:3px solid white;
+margin-bottom:15px;
+object-fit:cover;
+}
+
+/* role */
+
+.role{
+color:#ffd369;
+margin-bottom:10px;
+}
+
+/* section */
+
+.section{
+margin:12px 0;
+font-size:14px;
+line-height:1.5;
+}
+
+/* links */
+
+.links a{
+display:block;
+text-decoration:none;
+color:white;
+margin-top:6px;
+}
+
+.links a:hover{
+color:#ffd369;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>TEAM PORTFOLIO</h1>
+
+<div class="cards">
+
+<!-- MEMBER 1 -->
+
+<div class="card">
+
+<img src="https://i.pravatar.cc/150?img=3" class="profile">
+
+<h2>Durai</h2>
+<div class="role">Aim:Fullstack Developer</div>
+
+<div class="section">
+<b>About Me</b><br>
+Passionate developer interested in web development and software systems.
+</div>
+
+<div class="section">
+<b>Projects</b><br>
+AI Resume Analyzer<br>
+Train Ticket Reservation System
+</div>
+
+<div class="section links">
+<b>Contact</b><br>
+<a href="#">duraicvf@gmail.com</a>
+<a href="#">github.com/duraicvf-ux</a>
+</div>
+
+</div>
+
+<!-- MEMBER 2 -->
+
+<div class="card">
+
+<img src="https://i.pravatar.cc/150?img=5" class="profile">
+
+<h2>Amsath Subeer</h2>
+<div class="role">Aim:Backend Developer</div>
+
+<div class="section">
+<b>About Me</b><br>
+Interested in backend systems, databases, and application development.
+</div>
+
+<div class="section">
+<b>Projects</b><br>
+Clinic Management System<br>
+Portfolio Website
+</div>
+
+<div class="section links">
+<b>Contact</b><br>
+<a href="#">amsahsubeer@gmail.com</a>
+<a href="#">GitHub</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
